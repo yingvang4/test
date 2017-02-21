@@ -597,7 +597,7 @@ class playerBullet extends bullet {
   void draw() {
     translate(width/2, height/2);
     fill(0, 255 , 0);
-    ellipse(x, y, 10, 10);
+    ellipse(x, y, 30, 30);
     translate(-width/2, -height/2);
   }
   void updatePosition(float deltaX, float deltaY)
